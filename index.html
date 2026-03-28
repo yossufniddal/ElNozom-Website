@@ -1,485 +1,587 @@
 <!doctype html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 
-  
+
 
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
 <head>
   <link rel="icon" href="/favico.ico">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-52115242-17"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'UA-52115242-17');
-    </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-52115242-17"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-    <meta charset="utf-8">
-    <title>El Nozom - Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bootstrap HTML template and UI kit by Medium Rare">
-    <!-- Begin loading animation -->
-    <style>
-      @keyframes hideLoader{ 0%{ width: 100%; height: 100%; } 100%{ width: 0; height: 0; } } body > div.loader{ position: fixed; background: white; width: 100%; height: 100%; z-index: 1071; opacity: 0; transition: opacity .5s ease; overflow: hidden; pointer-events: none; display: flex; align-items: center; justify-content: center; } body:not(.loaded) > div.loader{ opacity: 1; } body:not(.loaded){ overflow: hidden; } body.loaded > div.loader{ animation: hideLoader .5s linear .5s forwards; } .loading-animation{width:40px;height:40px;margin:100px auto;background-color:#009B72;border-radius:100%;animation:pulse 1s infinite ease-in-out}@keyframes pulse{0%{-webkit-transform:scale(0);transform:scale(0)}100%{-webkit-transform:scale(1);transform:scale(1);opacity:0}}
-    </style>
-    <script type="text/javascript">
-      window.addEventListener("load",function(){document.querySelector('body').classList.add('loaded');});
-    </script>
-    <!-- End loading animation -->
-    <link href="assets/css/theme.min.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,600,700&amp;display=swap" rel="stylesheet">
-  </head>
+    gtag('config', 'UA-52115242-17');
+  </script>
 
-  <body>
-    <div class="loader">
-      <div class="loading-animation"></div>
-    </div>
+  <meta charset="utf-8">
+  <title>النظم - الرئيسية</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bootstrap HTML template and UI kit by Medium Rare">
+  <!-- Begin loading animation -->
+  <style>
+    @keyframes hideLoader {
+      0% {
+        width: 100%;
+        height: 100%;
+      }
 
-    <div class="navbar-container">
-      <nav class="navbar navbar-expand-lg navbar-light" data-sticky="top">
-        <div class="container">
-          <a class="navbar-brand navbar-brand-dynamic-color fade-page" href="index.html">
-            <img alt="El Nozom"  src="assets/img/logos/Nozom/smallblue.png">
-          </a>
-          <div class="d-flex align-items-center order-lg-3">
-            <a href="http://my.elnozom.com" class="btn btn-primary ml-lg-4 mr-3 mr-md-4 mr-lg-0 d-none d-sm-block order-lg-3">Login to MyNozom</a>
-            <button aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target=".navbar-collapse" data-toggle="collapse" type="button">
-              <img alt="Navbar Toggler Open Icon" class="navbar-toggler-open icon icon-sm" data-inject-svg src="assets/img/icons/interface/icon-menu.svg">
-              <img alt="Navbar Toggler Close Icon" class="navbar-toggler-close icon icon-sm" data-inject-svg src="assets/img/icons/interface/icon-x.svg">
-            </button>
-          </div>
-          <div class="collapse navbar-collapse order-3 order-lg-2 justify-content-lg-end" id="navigation-menu">
-            <ul class="navbar-nav my-3 my-lg-0">
-               <li class="nav-item">
-                 <li class="nav-item">
-            <div>
-              <a aria-expanded="false" aria-haspopup="true" class=" nav-link nav-item " data-toggle="dropdown-grid" href="about.html" role="button">About us</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <div>
-              <a aria-expanded="false" aria-haspopup="true" class=" nav-link nav-item " data-toggle="dropdown-grid" href="contact-us.html" role="button">Contact</a>
-            </div>
-          
-          </li>
-          <li class="nav-item">
-            <div>
-              <a aria-expanded="false" aria-haspopup="true" class=" nav-link nav-item " data-toggle="dropdown-grid" href="req-demo.html" role="button">Request a demo</a>
-            </div>
-          </li>
-           
-              <li class="nav-item">
-                <div class="dropdown">
-                  <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle nav-link nav-item arrow-bottom" data-toggle="dropdown-grid" href="#" role="button">Products and services</a>
-                  <div class="row dropdown-menu">
-                    <div class="col-auto" data-dropdown-content>
-                      <div class="dropdown-grid-menu"><a href="market-rms.html" class="dropdown-item fade-page">Enterprise RMS</a><a href="Pharma-rms.html" class="dropdown-item fade-page">PharmaLink</a><a href="FandB.html" class="dropdown-item fade-page">F&B Management</a> <a href="my-nozom.html" class="dropdown-item fade-page">MyNozom</a> <a href="pda-page.html" class="dropdown-item fade-page">Smart PDA</a>
-                      </div>
+      100% {
+        width: 0;
+        height: 0;
+      }
+    }
+
+    body>div.loader {
+      position: fixed;
+      background: white;
+      width: 100%;
+      height: 100%;
+      z-index: 1071;
+      opacity: 0;
+      transition: opacity .5s ease;
+      overflow: hidden;
+      pointer-events: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    body:not(.loaded)>div.loader {
+      opacity: 1;
+    }
+
+    body:not(.loaded) {
+      overflow: hidden;
+    }
+
+    body.loaded>div.loader {
+      animation: hideLoader .5s linear .5s forwards;
+    }
+
+    .loading-animation {
+      width: 40px;
+      height: 40px;
+      margin: 100px auto;
+      background-color: #009B72;
+      border-radius: 100%;
+      animation: pulse 1s infinite ease-in-out
+    }
+
+    @keyframes pulse {
+      0% {
+        -webkit-transform: scale(0);
+        transform: scale(0)
+      }
+
+      100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 0
+      }
+    }
+  </style>
+  <script type="text/javascript">
+    window.addEventListener("load", function () { document.querySelector('body').classList.add('loaded'); });
+  </script>
+  <!-- End loading animation -->
+  <link href="assets/css/theme-rtl.min.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="https://fonts.googleapis.com/css?family=Cairo:300,400,600,700&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="loader">
+    <div class="loading-animation"></div>
+  </div>
+
+  <div class="navbar-container">
+    <nav class="navbar navbar-expand-lg navbar-light" data-sticky="top">
+      <div class="container">
+        <a class="navbar-brand navbar-brand-dynamic-color fade-page" href="index.html">
+          <img alt="النظم" src="assets/img/logos/Nozom/smallblue.png">
+        </a>
+        <div class="d-flex align-items-center order-lg-3">
+          <a href="http://my.elnozom.com"
+            class="btn btn-primary ml-lg-4 mr-3 mr-md-4 mr-lg-0 d-none d-sm-block order-lg-3">تسجيل الدخول إلى ماي
+            نظم</a>
+          <button aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+            data-target=".navbar-collapse" data-toggle="collapse" type="button">
+            <img alt="Navbar Toggler Open Icon" class="navbar-toggler-open icon icon-sm" data-inject-svg
+              src="assets/img/icons/interface/icon-menu.svg">
+            <img alt="Navbar Toggler Close Icon" class="navbar-toggler-close icon icon-sm" data-inject-svg
+              src="assets/img/icons/interface/icon-x.svg">
+          </button>
+        </div>
+        <div class="collapse navbar-collapse order-3 order-lg-2 justify-content-lg-end" id="navigation-menu">
+          <ul class="navbar-nav my-3 my-lg-0">
+            <li class="nav-item">
+              <div><a class="nav-link nav-item font-weight-bold" href="en/index.html">English</a></div>
+            </li>
+            <li class="nav-item">
+            <li class="nav-item">
+              <div>
+                <a aria-expanded="false" aria-haspopup="true" class=" nav-link nav-item " data-toggle="dropdown-grid"
+                  href="about.html" role="button">معلومات عنا</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div>
+                <a aria-expanded="false" aria-haspopup="true" class=" nav-link nav-item " data-toggle="dropdown-grid"
+                  href="contact-us.html" role="button">اتصل بنا</a>
+              </div>
+
+            </li>
+            <li class="nav-item">
+              <div>
+                <a aria-expanded="false" aria-haspopup="true" class=" nav-link nav-item " data-toggle="dropdown-grid"
+                  href="req-demo.html" role="button">اطلب عرضاً تجريبياً</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <div class="dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle nav-link nav-item arrow-bottom"
+                  data-toggle="dropdown-grid" href="#" role="button">المنتجات والخدمات</a>
+                <div class="row dropdown-menu">
+                  <div class="col-auto" data-dropdown-content>
+                    <div class="dropdown-grid-menu"><a href="market-rms.html" class="dropdown-item fade-page">نظام إدارة
+                        المتاجر للشركات</a><a href="Pharma-rms.html" class="dropdown-item fade-page">فارما لينك</a><a
+                        href="FandB.html" class="dropdown-item fade-page">إدارة الأغذية والمشروبات</a> <a
+                        href="my-nozom.html" class="dropdown-item fade-page">ماي نظم</a> <a href="pda-page.html"
+                        class="dropdown-item fade-page">المساعد الشخصي الذكي</a>
                     </div>
                   </div>
-                  
                 </div>
-              </li>
-              
-            </ul>
-            
-          </div>
-          
-        </div>
-      </nav>
-    </div>
 
-    <section class="p-0 border-top border-bottom row no-gutters">
-      <div class="col-lg-7 col-xl-6">
-        <div class="container min-vh-lg-80 d-flex align-items-center">
-          <div class="row justify-content-center">
-            <div class="col col-md-10 col-xl-9 text-center text-lg-left">
-              <section>
-                <div data-aos="fade-right">
-                  <h1 class="display-3"><mark data-aos="highlight-text" data-aos-delay="200">Built to</mark> Empower Retailers</h1>
-                  <p class="lead">
-                    El Nozom has empowered retailers since 1993, with powerful solutions that can handle every small detail in your business. Join us now to manage your business easily!
-                  </p>
-                </div>
-                <div class="d-flex flex-column flex-sm-row mt-4 mt-md-5 justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay="300">
-                  <a href="about.html" class="btn btn-primary btn-lg mx-sm-2 mx-lg-0 mr-lg-2 my-1 my-sm-0">Discover More</a>
-                  <a href="req-demo.html" class="btn btn-outline-primary btn-lg mx-sm-2 mx-lg-0 mr-lg-2 my-1 my-sm-0">Request a demo</a>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-5 col-xl-6 d-lg-flex flex-lg-column">
-        <div class="divider divider-side transform-flip-y bg-white d-none d-lg-block"></div>
-        <div class="d-lg-flex flex-column flex-fill controls-hover" data-flickity='{ "imagesLoaded": true, "wrapAround":true, "pageDots":false, "autoPlay":true }'>
-          <div class="carousel-cell text-center">
-            <img class="img-fluid" src="assets/img/heros/ManPOS1.jpeg" alt="Image">
-          </div>
-          <div class="carousel-cell text-center">
-            <img class="img-fluid" src="assets/img/heros/PickUp1.jpg" alt="Image">
-          </div>
+              </div>
+            </li>
 
-          <div class="carousel-cell text-center">
-            <img class="img-fluid" src="assets/img/heros/WomanPOS1.jpeg" alt="Image">
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="bg-light o-hidden">
-      <div class="container">
-        <div class="row section-title justify-content-center text-center">
-          <div class="col-md-9 col-lg-8 col-xl-7">
-            <h2 class="display-4">Your journey starts with El Nozom</h2>
-            <div class="lead">With El Nozom managing your business was never that easy, our retail solutions assure that you will never think about your business managment process, leave it to us and we're gonna take care of all of that!</div>
-          </div>
-        </div>
-        <div class="row align-items-center justify-content-around">
-          <div class="col-md-9 col-lg-5" data-aos="fade-in">
-            <img src="assets/img/square-2.jpg" alt="Image" class="img-fluid rounded shadow">
-            <img src="assets/img/mobile-app/smalllaptop.png" alt="Image" class="position-absolute p-0 col-4 col-xl-5 border border-white border-thick rounded-circle top left shadow-lg mt-5 ml-n5 ml-lg-n3 ml-xl-n5 d-none d-md-block" data-jarallax-element="-20 0">
-          </div>
-          <div class="col-md-9 col-lg-6 col-xl-5 mt-4 mt-md-5 mt-lg-0">
-            <ol class="list-unstyled p-0">
-              <li class="d-flex align-items-start my-4 my-md-5">
-                <div class="rounded-circle p-3 p-sm-4 d-flex align-items-center justify-content-center bg-success">
-                  <div class="position-absolute text-white h5 mb-0">1</div>
-                </div>
-                <div class="ml-3 ml-md-4">
-                  <h4>Request a Demo</h4>
-                  <p>
-                    By requesting a demo A professional trainer will review our solution for you so that you can make your decision.
-                  </p>
-                  <a href="#"></a>
-                </div>
-              </li>
-              <li class="d-flex align-items-start my-4 my-md-5">
-                <div class="rounded-circle p-3 p-sm-4 d-flex align-items-center justify-content-center bg-success">
-                  <div class="position-absolute text-white h5 mb-0">2</div>
-                </div>
-                <div class="ml-3 ml-md-4">
-                  <h4>Get your Implementation</h4>
-                  <p>
-                    El Nozom has the quickest and most professional system Implementation process in the whole market.
-                  </p>
-                </div>
-              </li>
-              <li class="d-flex align-items-start my-4 my-md-5">
-                <div class="rounded-circle p-3 p-sm-4 d-flex align-items-center justify-content-center bg-success">
-                  <div class="position-absolute text-white h5 mb-0">3</div>
-                </div>
-                <div class="ml-3 ml-md-4">
-                  <h4>Start Selling!</h4>
-                  <p>
-                    You can start selling right away after Implementation with out any issues.
-                  </p>
-                </div>
-              </li>
-            </ol>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="p-0 bg-light">
-      <div class="container">
-        <div class="row align-items-center justify-content-around">
-          <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-md-5 mb-lg-0 pl-lg-5 pl-xl-0">
-            <div class="text-center text-lg-left">
-              <h2 class="h1">You are Cloud-Connected!</h2>
-              <p class="lead">Our solutions are connected with El Nozom Enterprise cloud which makes you able to access your data from anywhere on the planet.</p>
-            </div>
-            <div id="faq-accordion">
-              <div class="card mb-2 mb-md-3">
-                <a href="#accordion-1" data-toggle="collapse" role="button" aria-expanded="false" class="p-3 p-md-4">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <h6 class="mb-0 mr-2">Server syncronization with Cloud-Connected&#174; services</h6>
-                    <img src="assets/img/icons/interface/icon-caret-right.svg" alt="Caret Right" class="icon icon-sm" data-inject-svg>
-                  </div>
-                </a>
-                <div class="collapse" id="accordion-1" data-parent="#faq-accordion">
-                  <div class="px-3 px-md-4 pb-3 pb-md-4">
-                    Your stores local servers are connected with our Cloud-Connected&#174; platform so that you can access our solutions from any where over the web. Go cloud connected now!.
-                  </div>
-                </div>
-              </div>
-              <div class="card mb-2 mb-md-3">
-                <a href="#accordion-2" data-toggle="collapse" role="button" aria-expanded="false" class="p-3 p-md-4">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <h6 class="mb-0 mr-2">Cloud-Connected&#174; Mobile & web Solutions</h6>
-                    <img src="assets/img/icons/interface/icon-caret-right.svg" alt="Caret Right" class="icon icon-sm" data-inject-svg>
-                  </div>
-                </a>
-                <div class="collapse" id="accordion-2" data-parent="#faq-accordion">
-                  <div class="px-3 px-md-4 pb-3 pb-md-4">
-                    We provide you with Powerful mobile and web solutions that will help you manage your business like MyNozom&#174;, El Nozom SMS, El Nozom E-Commerce Platform and more!
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-9 col-lg-5" data-aos="fade-in">
-            <img src="assets/img/square-5.jpg" alt="Image" class="img-fluid rounded shadow">
-            <img src="assets/img/mobile-app/mynozomweb.png" alt="Image" class="position-absolute p-0 col-4 col-xl-5 border border-white border-thick rounded-circle top right shadow-lg mt-5 mr-n5 mr-lg-n3 mr-xl-n5 d-none d-md-block" data-jarallax-element="-20 0">
-          </div>
+          </ul>
 
         </div>
+
       </div>
-      <div class="divider divider-bottom bg-white"></div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="row section-title justify-content-center text-center">
-          <div class="col-md-9 col-lg-8 col-xl-7">
-            <h3 class="display-4">They trusted <mark data-aos="highlight-text" data-aos-delay="300">El Nozom</mark></h3>
-            <div class="lead">Over 1500 locations use El Nozom retail solutions globally and their owners are enjoying using it! What are you waiting for, join us now!</div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-lg-4 mb-3 mb-md-4 mb-lg-0">
-            <div class="card h-100 hover-box-shadow">
-              <div class="d-block bg-gradient rounded-top position-relative">
-                <img class="card-img-top hover-fade-out" src="assets/img/case-studies/AhmedwAbdo.png" alt="Ahmed&Abdou Stores">
-                <div class="badge badge-light">
-                  <img src="assets/img/logos/brand/aabdoo.png" alt="AandA Logo" class="icon icon-sm m-lg-1">
-                </div>
-              </div>
-              <div class="card-body">
-                <h3>Ahmed & Abdou</h3>
-                <p>
-                  Ahmed & Abdou is one of the most desired beauty centers brands in Egypt, A&A proudly is one of our Customers that chose El Nozom Beauty center managment system to simplify their business.
-                </p>
-                
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-3 mb-md-4 mb-lg-0">
-            <div class="card h-100 hover-box-shadow">
-              <div class="d-block bg-gradient rounded-top position-relative">
-                <img class="card-img-top hover-fade-out" src="assets/img/case-studies/Wave.png" alt="Image accompanying Kanba testimonial">
-                <div class="badge badge-light">
-                  <img src="assets/img/logos/brand/wavelogo.png" alt="Wave Logo" class="icon icon-sm m-lg-1">
-                </div>
-              </div>
-              <div class="card-body">
-                <h3>Wave Cafe</h3>
-                <p>
-                  Alexandria? Wave Cafe, Any vacation at Alexandria always ends with a great night at Wave. Wave proudly uses our F&B management solution. 
-                </p>
-               
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-3 mb-md-4 mb-lg-0">
-            <div class="card h-100 hover-box-shadow">
-              <div class="d-block bg-gradient rounded-top position-relative">
-                <img class="card-img-top hover-fade-out" src="assets/img/case-studies/AwladRagab.png" alt="Image: Ragab Sons Logo">
-                <div class="badge badge-light">
-                  <img src="assets/img/logos/brand/RagabLogo.png" alt="Treva company logo" class="icon icon-sm m-lg-1">
-                </div>
-              </div>
-              <div class="card-body">
-                <h3>Awlad Ragab</h3>
-                <p>
-                  Awlad Ragab is one of the most desired Fruits and vegetables merchandise in Egypt. Tons of fruits and vegetables from their stores to most of the Egyptian homes. Awlad Ragab Proudly uses ElNozom RMS.
-                </p>
-               
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="bg-primary-3 pt-0 text-white">
-      <div class="divider divider-top transform-flip-x bg-white"></div>
-      <div class="container">
-        <div class="row section-title justify-content-center text-center">
-          <div class="col-md-9 col-lg-8 col-xl-7">
-            <h3 class="display-4">Features Galore</h3>
-            <div class="lead">Our solutions are packed with ton of useful features that you're gonna enjoy using every day!</div>
-          </div>
-        </div>
+    </nav>
+  </div>
+
+  <section class="p-0 border-top border-bottom row no-gutters">
+    <div class="col-lg-7 col-xl-6">
+      <div class="container min-vh-lg-80 d-flex align-items-center">
         <div class="row justify-content-center">
-          <div class="col-xl-9 col-lg-10">
-            <div class="row justify-content-center">
-              <div class="col-md-6 mb-3 mb-md-4" data-aos="fade-up" data-aos-delay="10">
-                <div class="card card-body bg-white min-vh-md-30 hover-box-shadow">
-                  <div class="flex-fill">
-                    <h4 class="h3">Packs everything you need</h4>
-                    <p>All the tools you need to manage your business are available on our platform.
-                    </p>
-                  </div>
-                
+          <div class="col col-md-10 col-xl-9 text-center text-lg-left">
+            <section>
+              <div data-aos="fade-right">
+                <h1 class="display-3"><mark data-aos="highlight-text" data-aos-delay="200">صُمم لـ</mark> تمكين تجار
+                  التجزئة</h1>
+                <p class="lead">
+                  مكنت النظم تجار التجزئة منذ عا ١٩٩٣ من خلال حلول قوية يمكنها التعامل مع كل التفاصيل في عملك. انضم
+                  إلينا الآن!
+                </p>
+              </div>
+              <div class="d-flex flex-column flex-sm-row mt-4 mt-md-5 justify-content-center justify-content-lg-start"
+                data-aos="fade-right" data-aos-delay="300">
+                <a href="about.html" class="btn btn-primary btn-lg mx-sm-2 mx-lg-0 mr-lg-2 my-1 my-sm-0">اكتشف
+                  المزيد</a>
+                <a href="req-demo.html" class="btn btn-outline-primary btn-lg mx-sm-2 mx-lg-0 mr-lg-2 my-1 my-sm-0">اطلب
+                  عرضاً تجريبياً</a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-5 col-xl-6 d-lg-flex flex-lg-column">
+      <div class="divider divider-side transform-flip-y bg-white d-none d-lg-block"></div>
+      <div class="d-lg-flex flex-column flex-fill controls-hover"
+        data-flickity='{ "imagesLoaded": true, "wrapAround":true, "pageDots":false, "autoPlay":true }'>
+        <div class="carousel-cell text-center">
+          <img class="img-fluid" src="assets/img/heros/ManPOS1.jpeg" alt="Image">
+        </div>
+        <div class="carousel-cell text-center">
+          <img class="img-fluid" src="assets/img/heros/PickUp1.jpg" alt="Image">
+        </div>
+
+        <div class="carousel-cell text-center">
+          <img class="img-fluid" src="assets/img/heros/WomanPOS1.jpeg" alt="Image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-light o-hidden">
+    <div class="container">
+      <div class="row section-title justify-content-center text-center">
+        <div class="col-md-9 col-lg-8 col-xl-7">
+          <h2 class="display-4">رحلتك تبدأ هنا، مع النظم</h2>
+          <div class="lead">مع أنظمة النظم، لم تكن إدارة أعمالك بتلك السهولة قط. نضمن لك الإدارة الشاملة الفعالة لتركز
+            على مبيعاتك فقط!</div>
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-around">
+        <div class="col-md-9 col-lg-5" data-aos="fade-in">
+          <img src="assets/img/square-2.jpg" alt="Image" class="img-fluid rounded shadow">
+          <img src="assets/img/mobile-app/smalllaptop.png" alt="Image"
+            class="position-absolute p-0 col-4 col-xl-5 border border-white border-thick rounded-circle top left shadow-lg mt-5 ml-n5 ml-lg-n3 ml-xl-n5 d-none d-md-block"
+            data-jarallax-element="-20 0">
+        </div>
+        <div class="col-md-9 col-lg-6 col-xl-5 mt-4 mt-md-5 mt-lg-0">
+          <ol class="list-unstyled p-0">
+            <li class="d-flex align-items-start my-4 my-md-5">
+              <div class="rounded-circle p-3 p-sm-4 d-flex align-items-center justify-content-center bg-success">
+                <div class="position-absolute text-white h5 mb-0">1</div>
+              </div>
+              <div class="ml-3 ml-md-4">
+                <h4>اطلب عرضاً تجريبياً</h4>
+                <p>
+                  بطلبك عرضًا تجريبيًا، سيقوم أحد المدربين المحترفين بمراجعة حلولنا حتى تتمكن من اتخاذ قرارك.
+                </p>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="d-flex align-items-start my-4 my-md-5">
+              <div class="rounded-circle p-3 p-sm-4 d-flex align-items-center justify-content-center bg-success">
+                <div class="position-absolute text-white h5 mb-0">2</div>
+              </div>
+              <div class="ml-3 ml-md-4">
+                <h4>احصل على التنفيذ الخاص بك</h4>
+                <p>
+                  تتمتع النظم بأسرع عملية تطبيق نظام وأكثرها احترافية في السوق بأكمله.
+                </p>
+              </div>
+            </li>
+            <li class="d-flex align-items-start my-4 my-md-5">
+              <div class="rounded-circle p-3 p-sm-4 d-flex align-items-center justify-content-center bg-success">
+                <div class="position-absolute text-white h5 mb-0">3</div>
+              </div>
+              <div class="ml-3 ml-md-4">
+                <h4>ابدأ البيع!</h4>
+                <p>
+                  يمكنك بدء البيع فور التنفيذ دون أي تعقيدات.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="p-0 bg-light">
+    <div class="container">
+      <div class="row align-items-center justify-content-around">
+        <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-md-5 mb-lg-0 pl-lg-5 pl-xl-0">
+          <div class="text-center text-lg-left">
+            <h2 class="h1">أنت متصل سحابيا الدوام!</h2>
+            <p class="lead">حلولنا متصلة مع منصة سحابة النظم للشركات، والتي تتيح لك الوصول إلى بياناتك من أي مكان.</p>
+          </div>
+          <div id="faq-accordion">
+            <div class="card mb-2 mb-md-3">
+              <a href="#accordion-1" data-toggle="collapse" role="button" aria-expanded="false" class="p-3 p-md-4">
+                <div class="d-flex justify-content-between align-items-center">
+                  <h6 class="mb-0 mr-2">Server syncronization with متصل سحابيا&#174; services</h6>
+                  <img src="assets/img/icons/interface/icon-caret-right.svg" alt="Caret Right" class="icon icon-sm"
+                    data-inject-svg>
+                </div>
+              </a>
+              <div class="collapse" id="accordion-1" data-parent="#faq-accordion">
+                <div class="px-3 px-md-4 pb-3 pb-md-4">
+                  Your stores local servers are connected with our متصل سحابيا&#174; platform so that you can access our
+                  solutions from any wهنا over the web. Go cloud connected now!.
                 </div>
               </div>
-              <div class="col-md-6 mb-3 mb-md-4" data-aos="fade-up" data-aos-delay="20">
-                <div class="card card-body bg-white min-vh-md-30 hover-box-shadow">
-                  <div class="flex-fill">
-                    <h4 class="h3">Always updated</h4>
-                    <p>we always work on updating our products to enhance the user experience, usability, stability and add more valuable features to keep you going in your way.
-                    </p>
-                  </div>
-                  
+            </div>
+            <div class="card mb-2 mb-md-3">
+              <a href="#accordion-2" data-toggle="collapse" role="button" aria-expanded="false" class="p-3 p-md-4">
+                <div class="d-flex justify-content-between align-items-center">
+                  <h6 class="mb-0 mr-2">متصل سحابيا&#174; Mobile & web Solutions</h6>
+                  <img src="assets/img/icons/interface/icon-caret-right.svg" alt="Caret Right" class="icon icon-sm"
+                    data-inject-svg>
                 </div>
-              </div>
-              <div class="col-md-6 mb-3 mb-md-4" data-aos="fade-up" data-aos-delay="30">
-                <div class="card card-body bg-white min-vh-md-30 hover-box-shadow">
-                  <div class="flex-fill">
-                    <h4 class="h3">We’ve got your back</h4>
-                    <p>with 7 days a week support, and a powerful experienced support team, we can handle anything that might occur with our solutions.</p>
-                  </div>
-                 
-                </div>
-              </div>
-              <div class="col-md-6 mb-3 mb-md-4" data-aos="fade-up" data-aos-delay="40">
-                <div class="card card-body bg-white min-vh-md-30 hover-box-shadow">
-                  <div class="flex-fill">
-                    <h4 class="h3">Cloud connected</h4>
-                    <p>Our solutions are connected with El Nozom Cloud platform which enables you to access your store anywhere with powerful tools such as myNozom.</p>
-                  </div>
-                  
+              </a>
+              <div class="collapse" id="accordion-2" data-parent="#faq-accordion">
+                <div class="px-3 px-md-4 pb-3 pb-md-4">
+                  We provide you with قوي mobile and web solutions that will help you manage your business like ماي
+                  نظم&#174;, النظم SMS, النظم E-Commerce Platform and more!
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+        <div class="col-md-9 col-lg-5" data-aos="fade-in">
+          <img src="assets/img/square-5.jpg" alt="Image" class="img-fluid rounded shadow">
+          <img src="assets/img/mobile-app/mynozomweb.png" alt="Image"
+            class="position-absolute p-0 col-4 col-xl-5 border border-white border-thick rounded-circle top right shadow-lg mt-5 mr-n5 mr-lg-n3 mr-xl-n5 d-none d-md-block"
+            data-jarallax-element="-20 0">
+        </div>
 
-    <section class="pb-0">
-      <div class="container">
-        <div class="row section-title justify-content-center text-center">
-          <div class="col-md-9 col-lg-8 col-xl-7">
-            <h3 class="display-4">Join us now</h3>
-            <div class="lead">Request a demo and one of our professionals will call you to show you our solutions!</div>
+      </div>
+    </div>
+    <div class="divider divider-bottom bg-white"></div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row section-title justify-content-center text-center">
+        <div class="col-md-9 col-lg-8 col-xl-7">
+          <h3 class="display-4">هم وثقوا بنا <mark data-aos="highlight-text" data-aos-delay="300">النظم</mark></h3>
+          <div class="lead">أكثر من 1500 موقع حول العالم يستخدمون حلول النظم وأصحابها يستمتعون باستخدامها! ماذا تنتظر،
+            انضم إلينا الآن!</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-3 mb-md-4 mb-lg-0">
+          <div class="card h-100 hover-box-shadow">
+            <div class="d-block bg-gradient rounded-top position-relative">
+              <img class="card-img-top hover-fade-out" src="assets/img/case-studies/AhmedwAbdo.png"
+                alt="Ahmed&Abdou Stores">
+              <div class="badge badge-light">
+                <img src="assets/img/logos/brand/aabdoo.png" alt="AandA Logo" class="icon icon-sm m-lg-1">
+              </div>
+            </div>
+            <div class="card-body">
+              <h3>أحمد وعبده</h3>
+              <p>
+                أحمد وعبده هي واحدة من أكثر العلامات التجارية طلباً لمراكز التجميل في مصر. إيه آند إيه بفخر أحد عملائنا
+                الذين اختاروا نظام النظم لإدارة مراكز التجميل لتبسيط أعمالهم.
+              </p>
+
+            </div>
           </div>
         </div>
-        <div class="row justify-content-center text-center mt-md-n4">
-          <div class="col-auto">
-            <a href="req-demo.html" class="btn btn-primary btn-lg">Request a Demo</a>
+        <div class="col-md-6 col-lg-4 mb-3 mb-md-4 mb-lg-0">
+          <div class="card h-100 hover-box-shadow">
+            <div class="d-block bg-gradient rounded-top position-relative">
+              <img class="card-img-top hover-fade-out" src="assets/img/case-studies/Wave.png"
+                alt="Image accompanying Kanba testimonial">
+              <div class="badge badge-light">
+                <img src="assets/img/logos/brand/wavelogo.png" alt="Wave Logo" class="icon icon-sm m-lg-1">
+              </div>
+            </div>
+            <div class="card-body">
+              <h3>كافيه ويف</h3>
+              <p>
+                الإسكندرية؟ كافيه ويف، تنتهي أي إجازة في الإسكندرية دائمًا بليلة رائعة في ويف. يستخدم ويف بفخر حل إدارة
+                الأطعمة والمشروبات الخاص بنا.
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-3 mb-md-4 mb-lg-0">
+          <div class="card h-100 hover-box-shadow">
+            <div class="d-block bg-gradient rounded-top position-relative">
+              <img class="card-img-top hover-fade-out" src="assets/img/case-studies/AwladRagab.png"
+                alt="Image: Ragab Sons Logo">
+              <div class="badge badge-light">
+                <img src="assets/img/logos/brand/RagabLogo.png" alt="Treva company logo" class="icon icon-sm m-lg-1">
+              </div>
+            </div>
+            <div class="card-body">
+              <h3>أولاد رجب</h3>
+              <p>
+                أولاد رجب هو أحد أكثر بائعي الفواكه والخضروات طلباً في مصر. تصل أطنان من الفواكه والخضروات من متاجرهم
+                لجميع المنازل. أولاد رجب يستخدمون بفخر النظم.
+              </p>
+
+            </div>
           </div>
         </div>
       </div>
-      <div class="divider divider-bottom bg-primary-3 mt-5"></div>
-    </section>
+    </div>
+  </section>
+  <section class="bg-primary-3 pt-0 text-white">
+    <div class="divider divider-top transform-flip-x bg-white"></div>
+    <div class="container">
+      <div class="row section-title justify-content-center text-center">
+        <div class="col-md-9 col-lg-8 col-xl-7">
+          <h3 class="display-4">ميزات وفيرة</h3>
+          <div class="lead">حلولنا مليئة بالعديد من الميزات المفيدة التي ستستمتع باستخدامها يوميًا!</div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-xl-9 col-lg-10">
+          <div class="row justify-content-center">
+            <div class="col-md-6 mb-3 mb-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="card card-body bg-white min-vh-md-30 hover-box-shadow">
+                <div class="flex-fill">
+                  <h4 class="h3">كل ما تحتاجه مجمع معاً</h4>
+                  <p>تتوفر جميع الأدوات التي تحتاجها لإدارة عملك على منصتنا.
+                  </p>
+                </div>
 
-    <footer class="bg-primary-3 text-white links-white pb-4 footer-1">
-      <div class="container">
-     
-        </div>
-        <div class="row">
-          <div class="col">
-            <hr>
-          </div>
-        </div>
-        <div class="row flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-between text-center text-lg-left">
-          <div class="col-auto">
-            <div class="d-flex flex-column flex-sm-row align-items-center text-small">
-              <div class="text-muted">&copy; 2022 El Nozom Solutions inc. - Designed by El Nozom Labs
+              </div>
+            </div>
+            <div class="col-md-6 mb-3 mb-md-4" data-aos="fade-up" data-aos-delay="20">
+              <div class="card card-body bg-white min-vh-md-30 hover-box-shadow">
+                <div class="flex-fill">
+                  <h4 class="h3">محدث دائما</h4>
+                  <p>نقوم بصفة دائمة على تحديث منتجاتنا لضمان استقرار وسهولة الاستخدام لك.
+                  </p>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-6 mb-3 mb-md-4" data-aos="fade-up" data-aos-delay="30">
+              <div class="card card-body bg-white min-vh-md-30 hover-box-shadow">
+                <div class="flex-fill">
+                  <h4 class="h3">نحن نظهر لك الدعم دائمًا</h4>
+                  <p>يتوفر دعم فني مكثف طوال الأسبوع وبخبرة واسعة لحل جميع تساؤلاتك واستفساراتك.</p>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-6 mb-3 mb-md-4" data-aos="fade-up" data-aos-delay="40">
+              <div class="card card-body bg-white min-vh-md-30 hover-box-shadow">
+                <div class="flex-fill">
+                  <h4 class="h3">متصل سحابيا</h4>
+                  <p>حلولنا متصلة مع منصة سحابة النظم والتي تمكنك من الوصول إلى متجرك في أي مكان عبر أدوات مثل ماي نظم.
+                  </p>
+                </div>
+
               </div>
             </div>
           </div>
-          <div class="col-auto mt-3 mt-lg-0">
-            <ul class="list-unstyled d-flex mb-0">
-             
-              <li class="mx-3">
-                <a href="https://www.facebook.com/ElNozomSystems/" target=="_blank" class="hover-fade-out">
-                  <img src="assets/img/icons/social/facebook.svg" alt="Facebook" class="icon icon-xs bg-white" data-inject-svg>
-                </a>
-              </li>
-              <li class="mx-3">
-                <a href="https://www.google.com/search?q=el+nozom" target="_blank" class="hover-fade-out">
-                  <img src="assets/img/icons/social/google.svg" alt="Google" class="icon icon-xs bg-white" data-inject-svg>
-                </a>
-              </li>
-            </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pb-0">
+    <div class="container">
+      <div class="row section-title justify-content-center text-center">
+        <div class="col-md-9 col-lg-8 col-xl-7">
+          <h3 class="display-4">انضم إلينا الآن</h3>
+          <div class="lead">اطلب عرضًا تجريبيًا وسيقوم أحد محترفينا بالاتصال بك لاطلاعك على حلولنا!</div>
+        </div>
+      </div>
+      <div class="row justify-content-center text-center mt-md-n4">
+        <div class="col-auto">
+          <a href="req-demo.html" class="btn btn-primary btn-lg">اطلب عرضاً تجريبياً</a>
+        </div>
+      </div>
+    </div>
+    <div class="divider divider-bottom bg-primary-3 mt-5"></div>
+  </section>
+
+  <footer class="bg-primary-3 text-white links-white pb-4 footer-1">
+    <div class="container">
+
+    </div>
+    <div class="row">
+      <div class="col">
+        <hr>
+      </div>
+    </div>
+    <div
+      class="row flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-between text-center text-lg-left">
+      <div class="col-auto">
+        <div class="d-flex flex-column flex-sm-row align-items-center text-small">
+          <div class="text-muted">&copy; 2022 النظم Solutions inc. - Designed by النظم Labs
           </div>
         </div>
       </div>
-    </footer>
-    <a href="#top" class="btn btn-primary rounded-circle btn-back-to-top" data-smooth-scroll data-aos="fade-up" data-aos-offset="2000" data-aos-mirror="true" data-aos-once="false">
-      <img src="assets/img/icons/interface/icon-arrow-up.svg" alt="Icon" class="icon bg-white" data-inject-svg>
-    </a>
-    <!-- Required vendor scripts (Do not remove) -->
-    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/popper.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+      <div class="col-auto mt-3 mt-lg-0">
+        <ul class="list-unstyled d-flex mb-0">
 
-    <!-- 
+          <li class="mx-3">
+            <a href="https://www.facebook.com/ElNozomSystems/" target=="_blank" class="hover-fade-out">
+              <img src="assets/img/icons/social/facebook.svg" alt="Facebook" class="icon icon-xs bg-white"
+                data-inject-svg>
+            </a>
+          </li>
+          <li class="mx-3">
+            <a href="https://www.google.com/search?q=el+nozom" target="_blank" class="hover-fade-out">
+              <img src="assets/img/icons/social/google.svg" alt="Google" class="icon icon-xs bg-white" data-inject-svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <a href="#top" class="btn btn-primary rounded-circle btn-back-to-top" data-smooth-scroll data-aos="fade-up"
+    data-aos-offset="2000" data-aos-mirror="true" data-aos-once="false">
+    <img src="assets/img/icons/interface/icon-arrow-up.svg" alt="Icon" class="icon bg-white" data-inject-svg>
+  </a>
+  <!-- Required vendor scripts (Do not remove) -->
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/popper.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+
+  <!-- 
              This appears in the demo only.  This script ensures our demo countdowns are always showing a date in the future 
              by altering the date before the countdown is initialized 
         -->
-    <script type="text/javascript">
-      (($) => {
-            var now             = new Date;
-            var day             = 864e5;
-            var weeksToAdd      = 2;
-            var tenWeeksFromNow = new Date(+now + day * 7 * weeksToAdd).toISOString().slice(0,10).replace(/\-/g, 'index-2.html');
-            $('[data-countdown-date].add-countdown-time').attr('data-countdown-date', tenWeeksFromNow);
-          })(jQuery);
-    </script>
+  <script type="text/javascript">
+    (($) => {
+      var now = new Date;
+      var day = 864e5;
+      var weeksToAdd = 2;
+      var tenWeeksFromNow = new Date(+now + day * 7 * weeksToAdd).toISOString().slice(0, 10).replace(/\-/g, 'index-2.html');
+      $('[data-countdown-date].add-countdown-time').attr('data-countdown-date', tenWeeksFromNow);
+    })(jQuery);
+  </script>
 
-    <!-- Optional Vendor Scripts (Remove the plugin script here and comment initializer script out of index.js if site does not use that feature) -->
+  <!-- Optional Vendor Scripts (Remove the plugin script هنا and comment initializer script out of index.js if site does not use that feature) -->
 
-    <!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
-    <script type="text/javascript" src="assets/js/aos.js"></script>
-    <!-- Clipboard (copies content from browser into OS clipboard) -->
-    <script type="text/javascript" src="assets/js/clipboard.min.js"></script>
-    <!-- Fancybox (handles image and video lightbox and galleries) -->
-    <script type="text/javascript" src="assets/js/jquery.fancybox.min.js"></script>
-    <!-- Flatpickr (calendar/date/time picker UI) -->
-    <script type="text/javascript" src="assets/js/flatpickr.min.js"></script>
-    <!-- Flickity (handles touch enabled carousels and sliders) -->
-    <script type="text/javascript" src="assets/js/flickity.pkgd.min.js"></script>
-    <!-- Ion rangeSlider (flexible and pretty range slider elements) -->
-    <script type="text/javascript" src="assets/js/ion.rangeSlider.min.js"></script>
-    <!-- Isotope (masonry layouts and filtering) -->
-    <script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
-    <!-- jarallax (parallax effect and video backgrounds) -->
-    <script type="text/javascript" src="assets/js/jarallax.min.js"></script>
-    <script type="text/javascript" src="assets/js/jarallax-video.min.js"></script>
-    <script type="text/javascript" src="assets/js/jarallax-element.min.js"></script>
-    <!-- jQuery Countdown (displays countdown text to a specified date) -->
-    <script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
-    <!-- jQuery smartWizard facilitates steppable wizard content -->
-    <script type="text/javascript" src="assets/js/jquery.smartWizard.min.js"></script>
-    <!-- Plyr (unified player for Video, Audio, Vimeo and Youtube) -->
-    <script type="text/javascript" src="assets/js/plyr.polyfilled.min.js"></script>
-    <!-- Prism (displays formatted code boxes) -->
-    <script type="text/javascript" src="assets/js/prism.js"></script>
-    <!-- ScrollMonitor (manages events for elements scrolling in and out of view) -->
-    <script type="text/javascript" src="assets/js/scrollMonitor.js"></script>
-    <!-- Smooth scroll (animation to links in-page)-->
-    <script type="text/javascript" src="assets/js/smooth-scroll.polyfills.min.js"></script>
-    <!-- SVGInjector (replaces img tags with SVG code to allow easy inclusion of SVGs with the benefit of inheriting colors and styles)-->
-    <script type="text/javascript" src="assets/js/svg-injector.umd.production.js"></script>
-    <!-- TwitterFetcher (displays a feed of tweets from a specified account)-->
-    <script type="text/javascript" src="assets/js/twitterFetcher_min.js"></script>
-    <!-- Typed text (animated typing effect)-->
-    <script type="text/javascript" src="assets/js/typed.min.js"></script>
-    <!-- Required theme scripts (Do not remove) -->
-    <script type="text/javascript" src="assets/js/theme.js"></script>
-    <!-- This script appears only on the demo.  It is used to delay unnecessary image loading until after the main page content is loaded. -->
-    <script type="text/javascript">
-      window.addEventListener("load",function(){
-            setTimeout(function() {
-              const delayedImages = document.querySelectorAll('[data-delay-src]');
-              theme.mrUtil.forEach(delayedImages, (index, elem) => {
-                const source = elem.getAttribute('data-delay-src');
-                elem.removeAttribute('data-delay-src');
-                elem.setAttribute('src', source);
-              });
-            }, 500);
-          });
-    </script>
+  <!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
+  <script type="text/javascript" src="assets/js/aos.js"></script>
+  <!-- Clipboard (copies content from browser into OS clipboard) -->
+  <script type="text/javascript" src="assets/js/clipboard.min.js"></script>
+  <!-- Fancybox (handles image and video lightbox and galleries) -->
+  <script type="text/javascript" src="assets/js/jquery.fancybox.min.js"></script>
+  <!-- Flatpickr (calendar/date/time picker UI) -->
+  <script type="text/javascript" src="assets/js/flatpickr.min.js"></script>
+  <!-- Flickity (handles touch enabled carousels and sliders) -->
+  <script type="text/javascript" src="assets/js/flickity.pkgd.min.js"></script>
+  <!-- Ion rangeSlider (flexible and pretty range slider elements) -->
+  <script type="text/javascript" src="assets/js/ion.rangeSlider.min.js"></script>
+  <!-- Isotope (masonry layouts and filtering) -->
+  <script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+  <!-- jarallax (parallax effect and video backgrounds) -->
+  <script type="text/javascript" src="assets/js/jarallax.min.js"></script>
+  <script type="text/javascript" src="assets/js/jarallax-video.min.js"></script>
+  <script type="text/javascript" src="assets/js/jarallax-element.min.js"></script>
+  <!-- jQuery Countdown (displays countdown text to a specified date) -->
+  <script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
+  <!-- jQuery smartWizard facilitates steppable wizard content -->
+  <script type="text/javascript" src="assets/js/jquery.smartWizard.min.js"></script>
+  <!-- Plyr (unified player for Video, Audio, Vimeo and Youtube) -->
+  <script type="text/javascript" src="assets/js/plyr.polyfilled.min.js"></script>
+  <!-- Prism (displays formatted code boxes) -->
+  <script type="text/javascript" src="assets/js/prism.js"></script>
+  <!-- ScrollMonitor (manages events for elements scrolling in and out of view) -->
+  <script type="text/javascript" src="assets/js/scrollMonitor.js"></script>
+  <!-- Smooth scroll (animation to links in-page)-->
+  <script type="text/javascript" src="assets/js/smooth-scroll.polyfills.min.js"></script>
+  <!-- SVGInjector (replaces img tags with SVG code to allow easy inclusion of SVGs with the benefit of inheriting colors and styles)-->
+  <script type="text/javascript" src="assets/js/svg-injector.umd.production.js"></script>
+  <!-- TwitterFetcher (displays a feed of tweets from a specified account)-->
+  <script type="text/javascript" src="assets/js/twitterFetcher_min.js"></script>
+  <!-- Typed text (animated typing effect)-->
+  <script type="text/javascript" src="assets/js/typed.min.js"></script>
+  <!-- Required theme scripts (Do not remove) -->
+  <script type="text/javascript" src="assets/js/theme.js"></script>
+  <!-- This script appears only on the demo.  It is used to delay unnecessary image loading until after the main page content is loaded. -->
+  <script type="text/javascript">
+    window.addEventListener("load", function () {
+      setTimeout(function () {
+        const delayedImages = document.querySelectorAll('[data-delay-src]');
+        theme.mrUtil.forEach(delayedImages, (index, elem) => {
+          const source = elem.getAttribute('data-delay-src');
+          elem.removeAttribute('data-delay-src');
+          elem.setAttribute('src', source);
+        });
+      }, 500);
+    });
+  </script>
 
-    <script type="text/javascript">
-      // This script appears only in the demo - it disables forms with no action attribute to prevent 
-      // navigating away from the page.
-      jQuery("form:not([action])").on('submit', function(){return false;});
-    </script>
+  <script type="text/javascript">
+    // This script appears only in the demo - it disables forms with no action attribute to prevent 
+    // navigating away from the page.
+    jQuery("form:not([action])").on('submit', function () { return false; });
+  </script>
 
-  </body>
+</body>
 
 </html>
