@@ -16257,7 +16257,11 @@ https://flickity.metafizzy.co
 }
 
 .flickity-prev-next-button.next:after {
-    transform: rotateZ(-180deg)
+    transform: rotateZ(0deg)
+}
+
+.flickity-prev-next-button.previous:after {
+    transform: rotateZ(180deg)
 }
 
 .flickity-prev-next-button:hover {

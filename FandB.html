@@ -1,398 +1,522 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
 
-  
+
 
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
 <head>
   <link rel="icon" href="/favico.ico">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-52115242-17"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'UA-52115242-17');
-    </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-52115242-17"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-    <meta charset="utf-8">
-    <title>النظم - الأغذية والمشروبات</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bootstrap HTML template and UI kit by Medium Rare">
-    <!-- Begin loading animation -->
-    <style>
-      @keyframes hideLoader{ 0%{ width: 100%; height: 100%; } 100%{ width: 0; height: 0; } } body > div.loader{ position: fixed; background: white; width: 100%; height: 100%; z-index: 1071; opacity: 0; transition: opacity .5s ease; overflow: hidden; pointer-events: none; display: flex; align-items: center; justify-content: center; } body:not(.loaded) > div.loader{ opacity: 1; } body:not(.loaded){ overflow: hidden; } body.loaded > div.loader{ animation: hideLoader .5s linear .5s forwards; } .loading-animation{width:40px;height:40px;margin:100px auto;background-color:#009B72;border-radius:100%;animation:pulse 1s infinite ease-in-out}@keyframes pulse{0%{-webkit-transform:scale(0);transform:scale(0)}100%{-webkit-transform:scale(1);transform:scale(1);opacity:0}}
-    </style>
-    <script type="text/javascript">
-      window.addEventListener("load",function(){document.querySelector('body').classList.add('loaded');});
-    </script>
-    <!-- End loading animation -->
-    <link href="assets/css/theme-rtl.min.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="https://fonts.googleapis.com/css?family=Cairo:300,400,600,700&amp;display=swap" rel="stylesheet">
-  </head>
+    gtag('config', 'UA-52115242-17');
+  </script>
 
-  <body>
-    <div class="loader">
-      <div class="loading-animation"></div>
-    </div>
+  <meta charset="utf-8">
+  <title>النظم - الأغذية والمشروبات</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bootstrap HTML template and UI kit by Medium Rare">
+  <!-- Begin loading animation -->
+  <style>
+    @keyframes hideLoader {
+      0% {
+        width: 100%;
+        height: 100%;
+      }
 
-    <div class="navbar-container">
-      <nav class="navbar navbar-expand-lg navbar-dark" data-overlay data-sticky="top">
-        <div class="container">
-          <a class="navbar-brand navbar-brand-dynamic-color fade-page" href="index.html">
-            <img alt="النظم"  src="assets/img/logos/Nozom/smallblue.png">
-          </a>
-          <div class="d-flex align-items-center order-lg-3">
-            <a href="http://my.elnozom.com" class="btn btn-primary ml-lg-4 mr-3 mr-md-4 mr-lg-0 d-none d-sm-block order-lg-3">تسجيل الدخول إلى ماي نظم</a>
-            <button aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target=".navbar-collapse" data-toggle="collapse" type="button">
-              <img alt="Navbar Toggler Open Icon" class="navbar-toggler-open icon icon-sm" data-inject-svg src="assets/img/icons/interface/icon-menu.svg">
-              <img alt="Navbar Toggler Close Icon" class="navbar-toggler-close icon icon-sm" data-inject-svg src="assets/img/icons/interface/icon-x.svg">
-            </button>
-          </div>
-          <div class="collapse navbar-collapse order-3 order-lg-2 justify-content-lg-end" id="navigation-menu">
-            <ul class="navbar-nav my-3 my-lg-0">
-<li class="nav-item"><div><a class="nav-link nav-item font-weight-bold" href="en/FandB.html">English</a></div></li>
-               <li class="nav-item">
-                 <li class="nav-item">
-            <div>
-              <a aria-expanded="false" aria-haspopup="true" class=" nav-link nav-item " data-toggle="dropdown-grid" href="about.html" role="button">معلومات عنا</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <div>
-              <a aria-expanded="false" aria-haspopup="true" class=" nav-link nav-item " data-toggle="dropdown-grid" href="contact-us.html" role="button">اتصل بنا</a>
-            </div>
-          
-          </li>
-          <li class="nav-item">
-            <div>
-              <a aria-expanded="false" aria-haspopup="true" class=" nav-link nav-item " data-toggle="dropdown-grid" href="req-demo.html" role="button">اطلب عرضاً تجريبياً</a>
-            </div>
-          </li>
-           
-              <li class="nav-item">
-                <div class="dropdown">
-                  <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle nav-link nav-item arrow-bottom" data-toggle="dropdown-grid" href="#" role="button">المنتجات والخدمات</a>
-                  <div class="row dropdown-menu">
-                    <div class="col-auto" data-dropdown-content>
-                      <div class="dropdown-grid-menu"><a href="market-rms.html" class="dropdown-item fade-page">نظام إدارة المتاجر للشركات</a><a href="Pharma-rms.html" class="dropdown-item fade-page">فارما لينك</a><a href="FandB.html" class="dropdown-item fade-page">إدارة الأغذية والمشروبات</a> <a href="my-nozom.html" class="dropdown-item fade-page">ماي نظم</a> <a href="pda-page.html" class="dropdown-item fade-page">المساعد الشخصي الذكي</a>
-                      </div>
+      100% {
+        width: 0;
+        height: 0;
+      }
+    }
+
+    body>div.loader {
+      position: fixed;
+      background: white;
+      width: 100%;
+      height: 100%;
+      z-index: 1071;
+      opacity: 0;
+      transition: opacity .5s ease;
+      overflow: hidden;
+      pointer-events: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    body:not(.loaded)>div.loader {
+      opacity: 1;
+    }
+
+    body:not(.loaded) {
+      overflow: hidden;
+    }
+
+    body.loaded>div.loader {
+      animation: hideLoader .5s linear .5s forwards;
+    }
+
+    .loading-animation {
+      width: 40px;
+      height: 40px;
+      margin: 100px auto;
+      background-color: #009B72;
+      border-radius: 100%;
+      animation: pulse 1s infinite ease-in-out
+    }
+
+    @keyframes pulse {
+      0% {
+        -webkit-transform: scale(0);
+        transform: scale(0)
+      }
+
+      100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 0
+      }
+    }
+  </style>
+  <script type="text/javascript">
+    window.addEventListener("load", function () { document.querySelector('body').classList.add('loaded'); });
+  </script>
+  <!-- End loading animation -->
+  <link href="assets/css/theme-rtl.min.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="https://fonts.googleapis.com/css?family=Cairo:300,400,600,700&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="loader">
+    <div class="loading-animation"></div>
+  </div>
+
+  <div class="navbar-container">
+    <nav class="navbar navbar-expand-lg navbar-dark" data-overlay data-sticky="top">
+      <div class="container">
+        <a class="navbar-brand navbar-brand-dynamic-color fade-page" href="index.html">
+          <img alt="النظم" src="assets/img/logos/Nozom/smallblue.png">
+        </a>
+        <div class="d-flex align-items-center order-lg-3">
+          <a href="https://nz.elnozom.com"
+            class="btn btn-primary ml-lg-4 mr-3 mr-md-4 mr-lg-0 d-none d-sm-block order-lg-3">تسجيل الدخول إلى
+            الستوديو</a>
+          <button aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+            data-target=".navbar-collapse" data-toggle="collapse" type="button">
+            <img alt="Navbar Toggler Open Icon" class="navbar-toggler-open icon icon-sm" data-inject-svg
+              src="assets/img/icons/interface/icon-menu.svg">
+            <img alt="Navbar Toggler Close Icon" class="navbar-toggler-close icon icon-sm" data-inject-svg
+              src="assets/img/icons/interface/icon-x.svg">
+          </button>
+        </div>
+        <div class="collapse navbar-collapse order-3 order-lg-2 justify-content-lg-end" id="navigation-menu">
+          <ul class="navbar-nav my-3 my-lg-0">
+
+            <li class="nav-item">
+              <div><a class="nav-link nav-item font-weight-bold" href="en/FandB.html"><img
+                    src="https://flagcdn.com/gb.svg" width="26" height="26"
+                    style="border-radius: 50%; object-fit: cover; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" alt="English"
+                    title="English"></a></div>
+            </li>
+            <li class="nav-item">
+            <li class="nav-item">
+              <div>
+                <a aria-expanded="false" aria-haspopup="true" class=" nav-link nav-item " data-toggle="dropdown-grid"
+                  href="about.html" role="button">معلومات عنا</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div>
+                <a aria-expanded="false" aria-haspopup="true" class=" nav-link nav-item " data-toggle="dropdown-grid"
+                  href="contact-us.html" role="button">اتصل بنا</a>
+              </div>
+
+            </li>
+            <li class="nav-item">
+              <div>
+                <a aria-expanded="false" aria-haspopup="true" class=" nav-link nav-item " data-toggle="dropdown-grid"
+                  href="req-demo.html" role="button">اطلب عرضاً تجريبياً</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <div class="dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle nav-link nav-item arrow-bottom"
+                  data-toggle="dropdown-grid" href="#" role="button">المنتجات والخدمات</a>
+                <div class="row dropdown-menu">
+                  <div class="col-auto" data-dropdown-content>
+                    <div class="dropdown-grid-menu"><a href="market-rms.html" class="dropdown-item fade-page">نظام ادارة السوبر ماركت</a><a href="Pharma-rms.html" class="dropdown-item fade-page">فارما لينك</a><a
+                        href="FandB.html" class="dropdown-item fade-page">إدارة الأغذية والمشروبات</a> <a
+                        href="my-nozom.html" class="dropdown-item fade-page">ماي نظم</a> <a href="pda-page.html"
+                        class="dropdown-item fade-page">المساعد الشخصي الذكي</a>
                     </div>
                   </div>
-                  
                 </div>
-              </li>
-              
-            </ul>
-            
-          </div>
-          
-        </div>
-      </nav>
-    </div>
 
-    <div data-overlay class="bg-primary-3 jarallax text-white" data-jarallax data-speed="0.2">
-      <img src="assets/img/blog/LandingFB.jpg" alt="Background" class="jarallax-img opacity-30">
-      <section class="pb-0">
-        <div class="container pb-5">
-          <div class="row justify-content-center text-center">
-            <div class="col-xl-8 col-lg-10 col-md-11">
-            
-              <h1 class="display-3" data-aos="fade-up" data-aos-delay="100">مطعمك الآن أذكى وتكنولوجيا أكثر تقدمًا.</h1>
-              <p class="lead" data-aos="fade-up" data-aos-delay="200">
-                نظام النظم لإدارة الأطعمة والمشروبات هو النظام الأكثر تطوراً في هذا المجال في مصر.
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </nav>
+  </div>
+
+  <div data-overlay class="bg-primary-3 jarallax text-white" data-jarallax data-speed="0.2">
+    <img src="assets/img/blog/LandingFB.jpg" alt="Background" class="jarallax-img opacity-30">
+    <section class="pb-0">
+      <div class="container pb-5">
+        <div class="row justify-content-center text-center">
+          <div class="col-xl-8 col-lg-10 col-md-11">
+
+            <h1 class="display-3" data-aos="fade-up" data-aos-delay="100">مطعمك الآن أذكى وتكنولوجيا أكثر تقدمًا.</h1>
+            <p class="lead" data-aos="fade-up" data-aos-delay="200">
+              نظام النظم لإدارة الأطعمة والمشروبات هو النظام الأكثر تطوراً في هذا المجال في مصر.
+            </p>
+            <div class="d-flex flex-column flex-sm-row justify-content-center mt-4 mt-md-5" data-aos="fade-up"
+              data-aos-delay="300">
+              <a href="#" class="btn btn-primary btn-lg mx-sm-2 my-1 my-sm-0">استكشف المزيد</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divider divider-bottom bg-white"></div>
+    </section>
+  </div>
+  <section>
+    <div class="container">
+      <div class="row section-title justify-content-center text-center">
+        <div class="col-md-9 col-lg-8 col-xl-7">
+          <h3 class="display-4">نظام واحد شامل ومتكامل.</h3>
+          <div class="lead">يشتمل حل إدارة الأطعمة والمشروبات من النظم على العديد من الوحدات التي تساعدك في إدارة مطعمك
+            بشكل أسهل، وتتكامل جميع الوحدات لتوفر لك تجربة سلسة.</div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-6 col-lg-4 mb-4 mb-md-5" data-aos="fade-up" data-aos-delay="100">
+          <div class="mx-xl-4">
+            <img src="assets/img/icons/RMS/technical_support_48px.png" alt="Call center" class="mb-4">
+            <h5>مركز الاتصال</h5>
+            <p>
+              حل يدير طلبات التوصيل للمنازل واستفسارات وشكاوى العملاء عن بُعد.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-md-5" data-aos="fade-up" data-aos-delay="200">
+          <div class="mx-xl-4">
+            <img src="assets/img/icons/RMS/tv_48px.png" alt="POS" class="mb-4">
+            <h5>نقطة بيع الشركات</h5>
+            <p>
+              وحدة نقاط بيع مكتبية مصممة خصيصًا لمعالجة جميع معاملات الأطعمة والمشروبات.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-md-5" data-aos="fade-up" data-aos-delay="300">
+          <div class="mx-xl-4">
+            <img src="assets/img/icons/RMS/iphone_x_48px.png" alt="MPOS" class="mb-4">
+            <h5>نقاط البيع المحمولة</h5>
+            <p>
+              نقطة بيع يدوية تعالج طلبات عملائك أثناء التنقل.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-md-5" data-aos="fade-up" data-aos-delay="400">
+          <div class="mx-xl-4">
+            <img src="assets/img/icons/RMS/view_all_48px.png" alt="PDA" class="mb-4">
+            <h5>لوحة المطبخ الذكية</h5>
+            <p>
+              نظام عرض المطبخ الذي تحتاجه في مطبخك.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-md-5" data-aos="fade-up" data-aos-delay="500">
+          <div class="mx-xl-4">
+            <img src="assets/img/icons/RMS/accounting_48px.png" alt="MCS" class="mb-4">
+            <h5>تحكم المخزون</h5>
+            <p>
+              الوحدة الرئيسية، إدارة المخزون، المعاملات، إنشاء التقارير والمزيد.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-md-5" data-aos="fade-up" data-aos-delay="600">
+          <div class="mx-xl-4">
+            <img src="assets/img/icons/RMS/more_48px.png" alt="more" class="mb-4">
+            <h5>المزيد...</h5>
+            <p>
+              نمتلك باقات متنوعة تدعم الدمج المتكامل.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="p-0 bg-primary text-white row no-gutters">
+    <div class="col-lg-5 col-xl-6">
+      <img src="assets/img/blog/FBDownImg.jpg" alt="Image" class="w-100 h-100">
+    </div>
+    <div class="col-lg-7 col-xl-6">
+      <section>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col col-md-10 col-xl-9">
+              <h3 class="h1">&ldquo;أنظمة مصممة خصيصًا لك&rdquo;</h3>
+              <p class="lead">
+                أنظمتنا مصممة بالأساس لقطاعات المشروبات والمأكولات وتغطي كافة الوحدات بدمج كامل للوصول لأفضل الحلول.
               </p>
-              <div class="d-flex flex-column flex-sm-row justify-content-center mt-4 mt-md-5" data-aos="fade-up" data-aos-delay="300">
-                <a href="#" class="btn btn-primary btn-lg mx-sm-2 my-1 my-sm-0">استكشف المزيد</a>
-                
+
+              <div class="d-flex flex-column flex-sm-row align-items-start align-items-sm-center">
+
+                <span></span>
               </div>
             </div>
           </div>
         </div>
-        <div class="divider divider-bottom bg-white"></div>
       </section>
     </div>
-    <section>
-      <div class="container">
+  </section>
+
+
+  <section class="bg-light pt-0 o-hidden">
+    <div class="container">
+      <div class="row align-items-center justify-content-around text-center text-lg-left">
+        <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-md-5 mb-lg-0 order-lg-2 pl-lg-5 pl-xl-0">
+          <div data-aos="fade-in" data-aos-offset="250">
+            <h2 class="h1"><br><br>احصل على حلك الآن!</h2>
+            <p class="lead">نظام النظم للأغذية والمشروبات سيوفر لك الكثير من الجهد أثناء إدارة عملك</p>
+          </div>
+          <div class="d-flex flex-wrap justify-content-center justify-content-lg-start">
+            <div class="mb-3 mr-4 ml-lg-0 mr-lg-4" data-aos="fade-left" data-aos-delay="100">
+              <div class="d-flex align-items-center">
+                <div class="rounded-circle bg-success-alt">
+                  <img src="assets/img/icons/interface/icon-check.svg" alt="Binoculars icon"
+                    class="m-2 icon icon-xs bg-success" data-inject-svg>
+                </div>
+                <h6 class="mb-0 ml-3">مراقبة المخزون</h6>
+              </div>
+            </div>
+            <div class="mb-3 mr-4 ml-lg-0 mr-lg-4" data-aos="fade-left" data-aos-delay="200">
+              <div class="d-flex align-items-center">
+                <div class="rounded-circle bg-success-alt">
+                  <img src="assets/img/icons/interface/icon-check.svg" alt="Layouts icon"
+                    class="m-2 icon icon-xs bg-success" data-inject-svg>
+                </div>
+                <h6 class="mb-0 ml-3">نظام تقارير ذكي</h6>
+              </div>
+            </div>
+            <div class="mb-3 mr-4 ml-lg-0 mr-lg-4" data-aos="fade-left" data-aos-delay="300">
+              <div class="d-flex align-items-center">
+                <div class="rounded-circle bg-success-alt">
+                  <img src="assets/img/icons/interface/icon-check.svg" alt="Box icon"
+                    class="m-2 icon icon-xs bg-success" data-inject-svg>
+                </div>
+                <h6 class="mb-0 ml-3">متكامل</h6>
+              </div>
+            </div>
+            <div class="mb-3 mr-4 ml-lg-0 mr-lg-4" data-aos="fade-left" data-aos-delay="400">
+              <div class="d-flex align-items-center">
+                <div class="rounded-circle bg-success-alt">
+                  <img src="assets/img/icons/interface/icon-check.svg" alt="Lightning icon"
+                    class="m-2 icon icon-xs bg-success" data-inject-svg>
+                </div>
+                <h6 class="mb-0 ml-3">متصل سحابيا</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <section class="bg-primary-3 pb-0">
+    <div class="container">
+      <div class="text-white">
         <div class="row section-title justify-content-center text-center">
           <div class="col-md-9 col-lg-8 col-xl-7">
-            <h3 class="display-4">نظام واحد شامل ومتكامل.</h3>
-            <div class="lead">يشتمل حل إدارة الأطعمة والمشروبات من النظم على العديد من الوحدات التي تساعدك في إدارة مطعمك بشكل أسهل، وتتكامل جميع الوحدات لتوفر لك تجربة سلسة.</div>
-          </div>
-        </div>
-        <div class="row text-center">
-          <div class="col-md-6 col-lg-4 mb-4 mb-md-5" data-aos="fade-up" data-aos-delay="100">
-            <div class="mx-xl-4">
-              <img src="assets/img/icons/RMS/technical_support_48px.png" alt="Call center" class="mb-4">
-              <h5>مركز الاتصال</h5>
-              <p>
-                حل يدير طلبات التوصيل للمنازل واستفسارات وشكاوى العملاء عن بُعد. 
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-md-5" data-aos="fade-up" data-aos-delay="200">
-            <div class="mx-xl-4">
-              <img src="assets/img/icons/RMS/tv_48px.png" alt="POS" class="mb-4">
-              <h5>نقطة بيع الشركات</h5>
-              <p>
-                وحدة نقاط بيع مكتبية مصممة خصيصًا لمعالجة جميع معاملات الأطعمة والمشروبات.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-md-5" data-aos="fade-up" data-aos-delay="300">
-            <div class="mx-xl-4">
-              <img src="assets/img/icons/RMS/iphone_x_48px.png" alt="MPOS" class="mb-4">
-              <h5>نقاط البيع المحمولة</h5>
-              <p>
-                نقطة بيع يدوية تعالج طلبات عملائك أثناء التنقل.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-md-5" data-aos="fade-up" data-aos-delay="400">
-            <div class="mx-xl-4">
-              <img src="assets/img/icons/RMS/view_all_48px.png" alt="PDA" class="mb-4">
-              <h5>لوحة المطبخ الذكية</h5>
-              <p>
-               نظام عرض المطبخ الذي تحتاجه في مطبخك.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-md-5" data-aos="fade-up" data-aos-delay="500">
-            <div class="mx-xl-4">
-              <img src="assets/img/icons/RMS/accounting_48px.png" alt="MCS" class="mb-4">
-              <h5>تحكم المخزون</h5>
-              <p>
-                الوحدة الرئيسية، إدارة المخزون، المعاملات، إنشاء التقارير والمزيد.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-md-5" data-aos="fade-up" data-aos-delay="600">
-            <div class="mx-xl-4">
-              <img src="assets/img/icons/RMS/more_48px.png" alt="more" class="mb-4">
-              <h5>المزيد...</h5>
-              <p>
-                نمتلك باقات متنوعة تدعم الدمج المتكامل.
-              </p>
-            </div>
+            <h3 class="display-4">احصل على عرض توضيحي</h3>
+            <div class="lead">اطلب عرضًا تجريبيًا وسيقوم أحد أخصائيينا بإعطائك نظرة عامة حول حلولنا</div>
           </div>
         </div>
       </div>
-    </section>
-    <section class="p-0 bg-primary text-white row no-gutters">
-      <div class="col-lg-5 col-xl-6">
-        <img src="assets/img/blog/FBDownImg.jpg" alt="Image" class="w-100 h-100">
-        <div class="divider divider-side bg-primary d-none d-lg-block"></div>
-      </div>
-      <div class="col-lg-7 col-xl-6">
-        <section>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col col-md-10 col-xl-9">
-                <h3 class="h1">&ldquo;A system designed for you&rdquo;</h3>
-                <p class="lead">
-                  أنظمتنا مصممة بالأساس لقطاعات المشروبات والمأكولات وتغطي كافة الوحدات بدمج كامل للوصول لأفضل الحلول.
-                </p>
-                
-                <div class="d-flex flex-column flex-sm-row align-items-start align-items-sm-center">
-                  
-                  <span></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-    </section>
-  
-   
-    <section class="bg-light pt-0 o-hidden">
-      <div class="container">
-        <div class="row align-items-center justify-content-around text-center text-lg-left">
-          <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-md-5 mb-lg-0 order-lg-2 pl-lg-5 pl-xl-0">
-            <div data-aos="fade-in" data-aos-offset="250">
-              <h2 class="h1"><br><br>احصل على حلك الآن!</h2>
-              <p class="lead">نظام النظم للأغذية والمشروبات سيوفر لك الكثير من الجهد أثناء إدارة عملك</p>
-            </div>
-            <div class="d-flex flex-wrap justify-content-center justify-content-lg-start">
-              <div class="mb-3 mr-4 ml-lg-0 mr-lg-4" data-aos="fade-left" data-aos-delay="100">
-                <div class="d-flex align-items-center">
-                  <div class="rounded-circle bg-success-alt">
-                    <img src="assets/img/icons/interface/icon-check.svg" alt="Binoculars icon" class="m-2 icon icon-xs bg-success" data-inject-svg>
-                  </div>
-                  <h6 class="mb-0 ml-3">مراقبة المخزون</h6>
-                </div>
-              </div>
-              <div class="mb-3 mr-4 ml-lg-0 mr-lg-4" data-aos="fade-left" data-aos-delay="200">
-                <div class="d-flex align-items-center">
-                  <div class="rounded-circle bg-success-alt">
-                    <img src="assets/img/icons/interface/icon-check.svg" alt="Layouts icon" class="m-2 icon icon-xs bg-success" data-inject-svg>
-                  </div>
-                  <h6 class="mb-0 ml-3">نظام تقارير ذكي</h6>
-                </div>
-              </div>
-              <div class="mb-3 mr-4 ml-lg-0 mr-lg-4" data-aos="fade-left" data-aos-delay="300">
-                <div class="d-flex align-items-center">
-                  <div class="rounded-circle bg-success-alt">
-                    <img src="assets/img/icons/interface/icon-check.svg" alt="Box icon" class="m-2 icon icon-xs bg-success" data-inject-svg>
-                  </div>
-                  <h6 class="mb-0 ml-3">متكامل</h6>
-                </div>
-              </div>
-              <div class="mb-3 mr-4 ml-lg-0 mr-lg-4" data-aos="fade-left" data-aos-delay="400">
-                <div class="d-flex align-items-center">
-                  <div class="rounded-circle bg-success-alt">
-                    <img src="assets/img/icons/interface/icon-check.svg" alt="Lightning icon" class="m-2 icon icon-xs bg-success" data-inject-svg>
-                  </div>
-                  <h6 class="mb-0 ml-3">متصل سحابيا</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-       
-        </div>
-      </div>
-    
-    </section>
-  
-    <section class="bg-primary-3 pb-0">
-      <div class="container">
-        <div class="text-white">
-          <div class="row section-title justify-content-center text-center">
-            <div class="col-md-9 col-lg-8 col-xl-7">
-              <h3 class="display-4">احصل على عرض توضيحي</h3>
-              <div class="lead">اطلب عرضًا تجريبيًا وسيقوم أحد أخصائيينا بإعطائك نظرة عامة حول حلولنا</div>
-            </div>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-xl-5 col-lg-6 col-md-7">
-            <div class="d-flex flex-column flex-sm-row justify-content-center mt-4 mt-md-5" data-aos="fade-up" data-aos-delay="300">
-              <a href="req-demo.html" class="btn btn-primary btn-lg mx-sm-2 my-1 my-sm-0">اطلب عرضاً تجريبياً</a>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      <div class="row justify-content-center">
+        <div class="col-xl-5 col-lg-6 col-md-7">
+          <div class="d-flex flex-column flex-sm-row justify-content-center mt-4 mt-md-5" data-aos="fade-up"
+            data-aos-delay="300">
+            <a href="req-demo.html" class="btn btn-primary btn-lg mx-sm-2 my-1 my-sm-0">اطلب عرضاً تجريبياً</a>
 
-    <footer class="bg-primary-3 text-white links-white pb-4 footer-1">
-      <div class="container">
-     
-      </div>
-      <div class="row">
-        <div class="col">
-          <hr>
-        </div>
-      </div>
-      <div class="row flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-between text-center text-lg-left">
-        <div class="col-auto">
-          <div class="d-flex flex-column flex-sm-row align-items-center text-small">
-            <div class="text-muted">&copy; 2022 النظم Solutions inc. - Designed by النظم Labs
-            </div>
           </div>
-        </div>
-        <div class="col-auto mt-3 mt-lg-0">
-          <ul class="list-unstyled d-flex mb-0">
-           
-            <li class="mx-3">
-              <a href="https://www.facebook.com/ElNozomSystems/" target=="_blank" class="hover-fade-out">
-                <img src="assets/img/icons/social/facebook.svg" alt="Facebook" class="icon icon-xs bg-white" data-inject-svg>
-              </a>
-            </li>
-            <li class="mx-3">
-              <a href="https://www.google.com/search?q=el+nozom" target="_blank" class="hover-fade-out">
-                <img src="assets/img/icons/social/google.svg" alt="Google" class="icon icon-xs bg-white" data-inject-svg>
-              </a>
-            </li>
-          </ul>
         </div>
       </div>
     </div>
-    </footer>
-    <a href="#top" class="btn btn-primary rounded-circle btn-back-to-top" data-smooth-scroll data-aos="fade-up" data-aos-offset="2000" data-aos-mirror="true" data-aos-once="false">
-      <img src="assets/img/icons/interface/icon-arrow-up.svg" alt="Icon" class="icon bg-white" data-inject-svg>
-    </a>
-    <!-- Required vendor scripts (Do not remove) -->
-    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/popper.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+  </section>
 
-    <!-- 
+  <footer class="bg-primary-3 text-white links-white pb-4 footer-1">
+    <div class="container">
+
+    </div>
+    <div class="row">
+      <div class="col">
+        <hr>
+      </div>
+    </div>
+    <div
+      class="row flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-between text-center text-lg-left">
+      <div class="col-auto">
+        <div class="d-flex flex-column flex-sm-row align-items-center text-small">
+          <div class="text-muted">&copy; 2022 النظم Solutions inc. - Designed by النظم Labs
+          </div>
+        </div>
+      </div>
+      <div class="col-auto mt-3 mt-lg-0">
+        <ul class="list-unstyled d-flex mb-0">
+
+          <li class="mx-3">
+            <a href="https://www.facebook.com/ElNozomSystems/" target=="_blank" class="hover-fade-out">
+              <img src="assets/img/icons/social/facebook.svg" alt="Facebook" class="icon icon-xs bg-white"
+                data-inject-svg>
+            </a>
+          </li>
+          <li class="mx-3">
+            <a href="https://www.google.com/search?q=el+nozom" target="_blank" class="hover-fade-out">
+              <img src="assets/img/icons/social/google.svg" alt="Google" class="icon icon-xs bg-white" data-inject-svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <a href="#top" class="btn btn-primary rounded-circle btn-back-to-top" data-smooth-scroll data-aos="fade-up"
+    data-aos-offset="2000" data-aos-mirror="true" data-aos-once="false">
+    <img src="assets/img/icons/interface/icon-arrow-up.svg" alt="Icon" class="icon bg-white" data-inject-svg>
+  </a>
+  <!-- Required vendor scripts (Do not remove) -->
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/popper.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+
+  <!-- 
              This appears in the demo only.  This script ensures our demo countdowns are always showing a date in the future 
              by altering the date before the countdown is initialized 
         -->
-    <script type="text/javascript">
-      (($) => {
-            var now             = new Date;
-            var day             = 864e5;
-            var weeksToAdd      = 2;
-            var tenWeeksFromNow = new Date(+now + day * 7 * weeksToAdd).toISOString().slice(0,10).replace(/\-/g, 'index-2.html');
-            $('[data-countdown-date].add-countdown-time').attr('data-countdown-date', tenWeeksFromNow);
-          })(jQuery);
-    </script>
+  <script type="text/javascript">
+    (($) => {
+      var now = new Date;
+      var day = 864e5;
+      var weeksToAdd = 2;
+      var tenWeeksFromNow = new Date(+now + day * 7 * weeksToAdd).toISOString().slice(0, 10).replace(/\-/g, 'index-2.html');
+      $('[data-countdown-date].add-countdown-time').attr('data-countdown-date', tenWeeksFromNow);
+    })(jQuery);
+  </script>
 
-    <!-- Optional Vendor Scripts (Remove the plugin script هنا and comment initializer script out of index.js if site does not use that feature) -->
+  <!-- Optional Vendor Scripts (Remove the plugin script هنا and comment initializer script out of index.js if site does not use that feature) -->
 
-    <!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
-    <script type="text/javascript" src="assets/js/aos.js"></script>
-    <!-- Clipboard (copies content from browser into OS clipboard) -->
-    <script type="text/javascript" src="assets/js/clipboard.min.js"></script>
-    <!-- Fancybox (handles image and video lightbox and galleries) -->
-    <script type="text/javascript" src="assets/js/jquery.fancybox.min.js"></script>
-    <!-- Flatpickr (calendar/date/time picker UI) -->
-    <script type="text/javascript" src="assets/js/flatpickr.min.js"></script>
-    <!-- Flickity (handles touch enabled carousels and sliders) -->
-    <script type="text/javascript" src="assets/js/flickity.pkgd.min.js"></script>
-    <!-- Ion rangeSlider (flexible and pretty range slider elements) -->
-    <script type="text/javascript" src="assets/js/ion.rangeSlider.min.js"></script>
-    <!-- Isotope (masonry layouts and filtering) -->
-    <script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
-    <!-- jarallax (parallax effect and video backgrounds) -->
-    <script type="text/javascript" src="assets/js/jarallax.min.js"></script>
-    <script type="text/javascript" src="assets/js/jarallax-video.min.js"></script>
-    <script type="text/javascript" src="assets/js/jarallax-element.min.js"></script>
-    <!-- jQuery Countdown (displays countdown text to a specified date) -->
-    <script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
-    <!-- jQuery smartWizard facilitates steppable wizard content -->
-    <script type="text/javascript" src="assets/js/jquery.smartWizard.min.js"></script>
-    <!-- Plyr (unified player for Video, Audio, Vimeo and Youtube) -->
-    <script type="text/javascript" src="assets/js/plyr.polyfilled.min.js"></script>
-    <!-- Prism (displays formatted code boxes) -->
-    <script type="text/javascript" src="assets/js/prism.js"></script>
-    <!-- ScrollMonitor (manages events for elements scrolling in and out of view) -->
-    <script type="text/javascript" src="assets/js/scrollMonitor.js"></script>
-    <!-- Smooth scroll (animation to links in-page)-->
-    <script type="text/javascript" src="assets/js/smooth-scroll.polyfills.min.js"></script>
-    <!-- SVGInjector (replaces img tags with SVG code to allow easy inclusion of SVGs with the benefit of inheriting colors and styles)-->
-    <script type="text/javascript" src="assets/js/svg-injector.umd.production.js"></script>
-    <!-- TwitterFetcher (displays a feed of tweets from a specified account)-->
-    <script type="text/javascript" src="assets/js/twitterFetcher_min.js"></script>
-    <!-- Typed text (animated typing effect)-->
-    <script type="text/javascript" src="assets/js/typed.min.js"></script>
-    <!-- Required theme scripts (Do not remove) -->
-    <script type="text/javascript" src="assets/js/theme.js"></script>
-    <!-- This script appears only on the demo.  It is used to delay unnecessary image loading until after the main page content is loaded. -->
-    <script type="text/javascript">
-      window.addEventListener("load",function(){
-            setTimeout(function() {
-              const delayedImages = document.querySelectorAll('[data-delay-src]');
-              theme.mrUtil.forEach(delayedImages, (index, elem) => {
-                const source = elem.getAttribute('data-delay-src');
-                elem.removeAttribute('data-delay-src');
-                elem.setAttribute('src', source);
-              });
-            }, 500);
-          });
-    </script>
+  <!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
+  <script type="text/javascript" src="assets/js/aos.js"></script>
+  <!-- Clipboard (copies content from browser into OS clipboard) -->
+  <script type="text/javascript" src="assets/js/clipboard.min.js"></script>
+  <!-- Fancybox (handles image and video lightbox and galleries) -->
+  <script type="text/javascript" src="assets/js/jquery.fancybox.min.js"></script>
+  <!-- Flatpickr (calendar/date/time picker UI) -->
+  <script type="text/javascript" src="assets/js/flatpickr.min.js"></script>
+  <!-- Flickity (handles touch enabled carousels and sliders) -->
+  <script type="text/javascript" src="assets/js/flickity.pkgd.min.js"></script>
+  <!-- Ion rangeSlider (flexible and pretty range slider elements) -->
+  <script type="text/javascript" src="assets/js/ion.rangeSlider.min.js"></script>
+  <!-- Isotope (masonry layouts and filtering) -->
+  <script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+  <!-- jarallax (parallax effect and video backgrounds) -->
+  <script type="text/javascript" src="assets/js/jarallax.min.js"></script>
+  <script type="text/javascript" src="assets/js/jarallax-video.min.js"></script>
+  <script type="text/javascript" src="assets/js/jarallax-element.min.js"></script>
+  <!-- jQuery Countdown (displays countdown text to a specified date) -->
+  <script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
+  <!-- jQuery smartWizard facilitates steppable wizard content -->
+  <script type="text/javascript" src="assets/js/jquery.smartWizard.min.js"></script>
+  <!-- Plyr (unified player for Video, Audio, Vimeo and Youtube) -->
+  <script type="text/javascript" src="assets/js/plyr.polyfilled.min.js"></script>
+  <!-- Prism (displays formatted code boxes) -->
+  <script type="text/javascript" src="assets/js/prism.js"></script>
+  <!-- ScrollMonitor (manages events for elements scrolling in and out of view) -->
+  <script type="text/javascript" src="assets/js/scrollMonitor.js"></script>
+  <!-- Smooth scroll (animation to links in-page)-->
+  <script type="text/javascript" src="assets/js/smooth-scroll.polyfills.min.js"></script>
+  <!-- SVGInjector (replaces img tags with SVG code to allow easy inclusion of SVGs with the benefit of inheriting colors and styles)-->
+  <script type="text/javascript" src="assets/js/svg-injector.umd.production.js"></script>
+  <!-- TwitterFetcher (displays a feed of tweets from a specified account)-->
+  <script type="text/javascript" src="assets/js/twitterFetcher_min.js"></script>
+  <!-- Typed text (animated typing effect)-->
+  <script type="text/javascript" src="assets/js/typed.min.js"></script>
+  <!-- Required theme scripts (Do not remove) -->
+  <script type="text/javascript" src="assets/js/theme.js"></script>
+  <!-- This script appears only on the demo.  It is used to delay unnecessary image loading until after the main page content is loaded. -->
+  <script type="text/javascript">
+    window.addEventListener("load", function () {
+      setTimeout(function () {
+        const delayedImages = document.querySelectorAll('[data-delay-src]');
+        theme.mrUtil.forEach(delayedImages, (index, elem) => {
+          const source = elem.getAttribute('data-delay-src');
+          elem.removeAttribute('data-delay-src');
+          elem.setAttribute('src', source);
+        });
+      }, 500);
+    });
+  </script>
 
-    <script type="text/javascript">
-      // This script appears only in the demo - it disables forms with no action attribute to prevent 
-      // navigating away from the page.
-      jQuery("form:not([action])").on('submit', function(){return false;});
-    </script>
+  <script type="text/javascript">
+    // This script appears only in the demo - it disables forms with no action attribute to prevent 
+    // navigating away from the page.
+    jQuery("form:not([action])").on('submit', function () { return false; });
+  </script>
 
-  </body>
+
+  <style>
+    .wa-btn {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 40px;
+      right: 40px;
+      background-color: #25d366;
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 10000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.3s;
+    }
+
+    .wa-btn:hover {
+      background-color: #128C7E;
+      color: #FFF;
+      transform: scale(1.05);
+    }
+
+    .wa-btn svg {
+      fill: #FFF;
+    }
+  </style>
+  <a href="https://wa.me/201222208345" target="_blank" class="wa-btn" title="Chat with us on WhatsApp">
+    <svg width="35" height="35" fill="currentColor" viewBox="0 0 16 16">
+      <path
+        d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+    </svg>
+  </a>
+</body>
 
 
 
