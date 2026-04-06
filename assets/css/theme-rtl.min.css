@@ -19438,3 +19438,10 @@ html[dir="rtl"] .btn {
 .navbar .btn {
     font-size: 0.96rem !important;
 }
+
+/* Prevent horizontal scroll on mobile */
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+}
